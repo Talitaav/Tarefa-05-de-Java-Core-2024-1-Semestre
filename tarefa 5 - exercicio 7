@@ -1,0 +1,33 @@
+
+/*
+7) Ler dois valores (considere que não serão lidos valores iguais) e escrevê-los em ordem crescente.
+
+*/
+
+import java.util.Scanner;
+
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Informe o primeiro valor:");
+        double primeiro = sc.nextDouble();
+        
+        System.out.println("Informe o segundo valor:");
+        double segundo = sc.nextDouble();
+        
+        if (primeiro < segundo) {
+            System.out.println("Valores em ordem crescente: " + primeiro + ", " + segundo);
+        } else {
+            System.out.println("Valores em ordem crescente: " + primeiro + ", " + segundo);
+            
+        }
+        
+        sc.close();
+            
+        }
+        
+        
+    }
+

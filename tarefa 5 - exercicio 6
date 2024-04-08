@@ -1,0 +1,33 @@
+
+/*
+6) Ler dois valores (considere que não serão lidos valores iguais) e escrever o maior deles.
+
+*/
+
+import java.util.Scanner;
+
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Informe o primeiro valor:");
+        double primeiro = sc.nextDouble();
+        
+        System.out.println("Informe o segundo valor:");
+        double segundo = sc.nextDouble();
+        
+        if (primeiro > segundo) {
+            System.out.println("O maior valor é:" +primeiro);
+        } else {
+            System.out.println("O maior valor é:" +segundo);
+            
+        }
+        
+        sc.close();
+            
+        }
+        
+        
+    }
+
